@@ -3,18 +3,7 @@ pipeline {
   stages {
     stage('httpd') {
       steps {
-        sh '''sudo apt install apache2
-
-
-
-
-
-
-
-
-
-
-sudo systemctl status apache2'''
+        sh 'sudo apt install apache2'
       }
     }
   }
